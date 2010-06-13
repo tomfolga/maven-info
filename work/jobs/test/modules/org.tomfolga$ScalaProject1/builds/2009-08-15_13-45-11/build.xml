@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild>
+  <actions/>
+  <number>4</number>
+  <result>NOT_BUILT</result>
+  <duration>0</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+</hudson.maven.MavenBuild>

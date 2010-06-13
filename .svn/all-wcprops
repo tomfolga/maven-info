@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 21
+/svn/hudson/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/hudson/!svn/ver/21230/trunk/hudson/plugins/maven-info
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hudson/!svn/ver/21230/trunk/hudson/plugins/maven-info/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hudson/!svn/ver/21230/trunk/hudson/plugins/maven-info/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hudson/!svn/ver/21240/trunk/hudson/plugins/maven-info/pom.xml
+END

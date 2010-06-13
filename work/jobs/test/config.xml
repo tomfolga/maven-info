@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<maven2-moduleset>
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <triggers class="vector"/>
+  <concurrentBuild>false</concurrentBuild>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <rootModule>
+    <groupId>org.tomfolga</groupId>
+    <artifactId>ScalaProject1</artifactId>
+  </rootModule>
+  <aggregatorStyleBuild>true</aggregatorStyleBuild>
+  <incrementalBuild>false</incrementalBuild>
+  <usePrivateRepository>false</usePrivateRepository>
+  <ignoreUpstremChanges>false</ignoreUpstremChanges>
+  <reporters/>
+  <publishers/>
+  <buildWrappers/>
+</maven2-moduleset>

@@ -1,0 +1,9 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:i="jelly:fmt">
+	<!--j:forEach var="build" items="${job.builds}"-->            
+      <j:forEach var="mavenModule" items="${job.lastBuild.moduleLastBuilds.keySet()}">
+      <j:invokeStatic className="hudson.model.Hudson" method="getInstance" var="hudson"/>
+      <td>${job.JDK} ${hudson.getDependencyGraph().getDownstream(mavenModule)} ${hudson.getDependencyGraph().getUpstream(mavenModule)} ${mavenModule.moduleName.groupId} ${mavenModule.moduleName.artifactId} ${mavenModule.version}</td>
+      
+      </j:forEach>
+    <!--/j:forEach-->    
+</j:jelly>
